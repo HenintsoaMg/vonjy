@@ -12,7 +12,7 @@
     "build-capacitor-android": "cross-env NODE_ENV=production vite build && npx cap copy android",
     "postinstall": "cpy --flat ./node_modules/framework7-icons/fonts/*.* ./src/fonts/ && cpy --flat ./node_modules/material-icons/iconfont/*.* ./src/fonts/",
     "sync": "npx cap sync",
-    "android": "npm run build && npx cap run android",
+    "android": "yarn build-capacitor-android && npx cap run android",
     "open": "npx cap open android"
   },
   "browserslist": [
