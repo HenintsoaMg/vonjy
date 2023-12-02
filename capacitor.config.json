@@ -1,0 +1,13 @@
+{
+  "appId": "mg.henintsoa.vonjy",
+  "appName": "Vonjy",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
