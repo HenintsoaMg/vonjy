@@ -4,10 +4,10 @@
 
 First of all we need to install dependencies, run in terminal
 ```
-npm install
+yarn install
 ```
 
-## NPM Scripts
+## YARN Scripts
 
 * 🔥 `start` - run development server
 * 🔧 `dev` - run development server
